@@ -1,0 +1,1 @@
+This is a Chrome extension that replaces all instances of the word Trump in the page with the word Drumpf.

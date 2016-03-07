@@ -1,0 +1,19 @@
+{
+"manifest_version": 2,
+    "name": "makedonalddrumpfagain",
+    "description": "Makes Donald Drumpf Again",
+    "version": "0.1",
+    "icons": { "128": "drumpf1.png" },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
